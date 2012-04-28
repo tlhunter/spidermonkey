@@ -1,0 +1,81 @@
+body {
+	font: 10px arial,
+	sans-serif;
+	margin: 20px;
+}
+#master-tabs {
+	width: 800px;
+}
+#master-tabs .ui-tabs-panel {
+	min-height: 200px;
+	overflow: auto;
+}
+tr.even td {
+	background-color: #fff;
+}
+tr.odd td {
+	background-color: #eee;
+}
+h1 span {
+	color: #999;
+	font-size: 16px;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+	color: #fff;
+	background: #333 url('black-tie/images/ui-bg_diagonals-thick_8_333333_40x40.png') repeat;
+}
+th span {
+	font-weight: normal;
+	color: #ccc;
+}
+th,
+td {
+	padding: 4px;
+}
+th.first {
+	border-radius: 3px 0 0 3px;
+}
+th.last {
+	border-radius: 0 3px 3px 0;
+}
+.textual {
+	border: 1px solid #666;
+	padding: 2px;
+	font-size: 12px;
+	background-color: #fff;
+	width: 350px;
+}
+.label_column {
+	width: 360px;
+}
+input.integer {
+	width: 40px;
+	text-align: right;
+}
+input.expression {
+	width: 184px;
+}
+input.expname {
+	width: 140px;
+}
+small {
+	color: #666666;
+	display: block;
+	font-size: 85%;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+table {
+	width: 100%;
+}
+.handle-increment { display: none; }
+.handle-mysql { display: none; }
+#nice-visible {
+	text-align: center;
+}
